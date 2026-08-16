@@ -1,0 +1,49 @@
+.form-container {
+  max-width: 620px;
+  margin: auto;
+}
+
+.form-container h2 {
+  color: #1e293b;
+  font-size: 28px;
+  margin: 0 0 30px;
+}
+
+.date-input-group {
+  margin-bottom: 22px;
+}
+
+.date-input-group input {
+  width: 100%;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.error-message {
+  color: #dc2626;
+  font-size: 13px;
+  margin: 6px 0 0;
+}
+
+.primary-button,
+.secondary-button {
+  padding: 12px 25px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.primary-button {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.secondary-button {
+  background: #e2e8f0;
+  color: #334155;
+}

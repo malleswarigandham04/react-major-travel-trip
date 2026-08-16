@@ -1,0 +1,60 @@
+.assistance-container {
+  max-width: 620px;
+  margin: auto;
+}
+
+.assistance-container h2 {
+  color: #1e293b;
+  font-size: 28px;
+  margin: 0 0 25px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #334155;
+  font-weight: 600;
+}
+
+.checkbox-container input {
+  width: 18px;
+  height: 18px;
+}
+
+.assistance-select-container {
+  margin-top: 25px;
+}
+
+.assistance-select-container select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background: #ffffff;
+  font-size: 15px;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.primary-button,
+.secondary-button {
+  padding: 12px 25px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+}
+
+.primary-button {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.secondary-button {
+  background: #e2e8f0;
+  color: #334155;
+}
